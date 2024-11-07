@@ -219,6 +219,12 @@ Herramientas Adicionales:
 ● Herramientas de Colaboración:
 ○ Clickup (https://app.clickup.com/9011445165/v/li/901105723447) / Slack / Google Meet
 
+<p align="center">
+<img src="Imagenes/stack.png"  
+height=450>
+</p>
+
+
 </details>
 
 
