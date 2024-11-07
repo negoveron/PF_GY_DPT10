@@ -217,7 +217,43 @@ height=450>
 
 ### ETL Completo
 ### Estructura de Datos Implementada (DW)
-### Pipeline ETL Automatizado
+### Pipeline ETL Automatizado:
+
+Hemos desarrollado un pipeline de datos, un proceso estructurado que nos permitió automatizar la captura, transformación y carga de información de diferentes fuentes hacia un entorno de análisis. Este pipeline cumple un rol clave en la gestión de datos moderna, ya que asegura la integración y disponibilidad de datos actualizados y fiables para la toma de decisiones y análisis de negocio.
+
+#### Objetivos
+- El principal objetivo del pipeline de datos es procesar información de manera eficiente, de tal forma que pueda ser transformada y cargada en un repositorio para su análisis. Algunos objetivos específicos incluyen:
+
+- - Automatizar la extracción de datos desde fuentes heterogéneas.
+Estandarizar y limpiar los datos para su análisis.
+Coordinar las tareas de manera secuencial y con manejo de errores.
+Generar un flujo de datos confiable y escalable.
+Metodología y Etapas del Pipeline
+Para lograr estos objetivos, dividimos el pipeline en las siguientes etapas:
+
+- Extracción de Datos: La primera etapa consiste en la extracción de datos desde fuentes de origen, que pueden incluir bases de datos relacionales, archivos JSON o APIs de terceros. Para asegurar la conectividad y disponibilidad de datos, empleamos herramientas de integración y realizamos un monitoreo continuo de las fuentes de datos.
+
+- Transformación de Datos: En esta fase, se realizan las transformaciones necesarias para asegurar la calidad y estandarización de los datos. Esto incluye tareas de limpieza, normalización y eliminación de duplicados, así como también cualquier preprocesamiento específico para adaptar los datos a los requisitos del análisis. Utilizamos herramientas como pandas para manejar grandes volúmenes de datos de forma eficiente.
+
+- Carga de Datos: Una vez que los datos han sido procesados y se encuentran en un formato adecuado, los cargamos en el datawarehouse de GoogleCloud donde se correra un pipelineDW para luego cargarlo a BigQuery
+
+- Orquestación y Automatización: Para gestionar la secuencia de las tareas y sus dependencias, hemos utilizado un orquestador de datos. Este orquestador nos permitió automatizar y programar la ejecución del pipeline, monitorear el estado de cada etapa y asegurar que los errores sean manejados adecuadamente. Para esto, hemos utilizado AirFlow de la suite de GoogleCLoud, que facilita la programación y ejecución de flujos de trabajo complejos.
+
+- Monitoreo y Gestión de Errores: La última etapa en el pipeline implica un monitoreo activo de las tareas en ejecución y el manejo de errores en tiempo real. Implementamos registros de logs y alertas para asegurar la detección temprana de fallos, de manera que las tareas puedan ser reintentadas automáticamente o escaladas para su resolución.
+
+#### Resultados
+El pipeline desarrollado logró reducir el tiempo manual de procesamiento de datos y mejorar la calidad de la información analizada. Gracias a la automatización de las tareas de extracción, transformación y carga, el equipo de análisis ahora puede acceder a datos consistentes y en tiempo real. Esto ha permitido un análisis más ágil y ha facilitado la toma de decisiones basada en datos actualizados.
+
+#### Desafíos y Soluciones
+Durante el desarrollo del pipeline, enfrentamos varios desafíos, tales como:
+
+- - Integración de fuentes heterogéneas: Resolver incompatibilidades entre los distintos formatos de datos y asegurar la conectividad constante.
+Escalabilidad: Optimizar el rendimiento del pipeline para manejar volúmenes crecientes de datos sin afectar la velocidad o calidad de los procesos.
+- - Manejo de Errores: Implementar un sistema robusto de gestión de errores para asegurar que el pipeline pueda recuperarse de fallos y continuar con la ejecución del flujo de datos.
+- - Para resolver estos desafíos, implementamos una estrategia de reintentos automáticos, procesamiento en paralelo para ciertas tareas, y monitoreo continuo del estado del pipeline.
+
+#### Conclusión:  
+El desarrollo de este pipeline de datos representa una solución integral para gestionar, transformar y analizar datos de manera eficiente. Esta implementación de automatización y orquestación de datos permite a la organización beneficiarse de un flujo de trabajo de datos confiable, escalable y alineado con las necesidades de análisis. A futuro, planeamos mejorar el pipeline mediante la incorporación de capacidades de escalabilidad en la nube y de machine learning para optimizar aún más el procesamiento de los datos y generar información de valor en tiempo real.
 
 <p align="center">
 <img src="Imagenes/ciclo_de_vida.png"  
