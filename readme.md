@@ -186,38 +186,34 @@ Un equipo auto organizado de desarrolladores, analistas de datos y otros roles t
 que se encargan de llevar a cabo las tareas seleccionadas del sprint backlog. El equipo es
 responsable de entregar incrementos de valor al final de cada sprint.
 ## 6.- Stack Tecnológico
-Backend:
-● Lenguaje Principal: Python
-● Framework: FastAPI (TBD)
-● Base de Datos: PostgreSQL (TBD)
-● Algoritmos y Librerías de Recomendación:
-○ TextBlob: Para el análisis de sentimiento de las reviews
-○ Scikit-learn: Para el cálculo de la similitud de coseno.(TBD)
-○ HDBSCAN: Para la clusterización de restaurantes.
-○ Pandas: Para la manipulación de los datos.
-○ Numpy: Para las operaciones numéricas.
-● API REST: Endpoints creados con FastAPI para la comunicación entre el frontend y el
-backend. (TBD)
-Frontend:
-● Lenguaje Principal: Python
-● Framework: React (TBD)
-● Estilización: CSS/Bootstrap/Tailwind (TBD)
-Infraestructura y Deploy:
-● Proveedor de Hosting: Render (TBD)
-● Contenedores: Google Cloud
-● Control de Versiones: Git y GitHub (https://github.com/negoveron/PF_GY_DPT10)
-Análisis de Datos y Visualización:
-● Power BI: Utilizado para generar reportes interactivos y visualizaciones de los datos del
-sistema de recomendación.
-○ Visualizaciones: Se presentan gráficos que muestran las métricas de precisión ,
-como la cantidad de usuarios que coincidieron en gustos, la precisión de las
-recomendaciones, y las restaurants más recomendados.
+#### Backend:  
+● Lenguaje Principal: Python  
+● Framework: FastAPI (TBD)  
+● Base de Datos: PostgreSQL (TBD)  
+● Algoritmos y Librerías de Recomendación:  
+○ TextBlob: Para el análisis de sentimiento de las reviews  
+○ Scikit-learn: Para el cálculo de la similitud de coseno.(TBD)  
+○ HDBSCAN: Para la clusterización de restaurantes.  
+○ Pandas: Para la manipulación de los datos.  
+○ Numpy: Para las operaciones numéricas.  
+● API REST: Endpoints creados con FastAPI para la comunicación entre el frontend y el backend. (TBD)  
+#### Frontend:  
+● Lenguaje Principal: Python  
+● Framework: React (TBD)  
+● Estilización: CSS/Bootstrap/Tailwind (TBD)  
+Infraestructura y Deploy:  
+● Proveedor de Hosting: Render (TBD)  
+● Contenedores: Google Cloud  
+● Control de Versiones: Git y GitHub (https://github.com/negoveron/PF_GY_DPT10)  
+#### Análisis de Datos y Visualización:  
+● Power BI: Utilizado para generar reportes interactivos y visualizaciones de los datos del sistema de recomendación.  
+○ Visualizaciones: Se presentan gráficos que muestran las métricas de precisión ,como la cantidad de usuarios que coincidieron en gustos, la precisión de las recomendaciones, y las restaurants más recomendados.  
 ○ Conexión a Datos: Power BI se conectará a la base de datos Google Cloud para
-extraer los datos necesarios y realizar el análisis visual.
-Herramientas Adicionales:
-● Editor de Código: Visual Studio Code
-● Herramientas de Colaboración:
-○ Clickup (https://app.clickup.com/9011445165/v/li/901105723447) / Slack / Google Meet
+extraer los datos necesarios y realizar el análisis visual.  
+#### Herramientas Adicionales:  
+● Editor de Código: Visual Studio Code  
+● Herramientas de Colaboración:  
+○ Clickup (https://app.clickup.com/9011445165/v/li/901105723447) / Slack / Google Meet  
 
 <p align="center">
 <img src="Imagenes/stack.png"  
