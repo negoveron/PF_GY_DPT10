@@ -1,6 +1,12 @@
-# Trabajo Final
+# <h1 align=center> **Proyecto Grupal - HENRY DATA ANALYST** </h1>
 
-Yelp - Google
+## <h1 align=center>**`Yelp - Google`**</h1>
+
+<p align="center">
+<img src="Imagenes/GastroSphere_portada.jpg"  
+height=450>
+</p>
+
 
 <details>
   <summary>Primer Sprint</summary>
@@ -222,14 +228,38 @@ Herramientas Adicionales:
 ### ETL Completo
 ### Estructura de Datos Implementada (DW)
 ### Pipeline ETL Automatizado
+
+<p align="center">
+<img src="Imagenes/ciclo_de_vida.png"  
+height=450>
+</p>
+
 ### Diseño ER
 ### Pipeline para alimentar el DW
 ### Data Warehouse
+
+<p align="center">
+<img src="Imagenes/ciclo_de_vida.png"  
+height=450>
+</p>
+
 ### Automatizacion
 ### Validacion de datos
 ### Documentacion
 ### Analisis de datos de muestra
 ### MVP/Proof of concept de producto ML
 ### Este Readme 
+</details>  
 
-</details>
+
+
+## Autores! 👋
+
+|   <h3 align=center>Foto</h3> | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) |
+|--------|-------------|
+| <img src="Imagenes/jc2_perfil.png" width="75"/> | Linkedin Miembro. |
+| <img src="Imagenes/jc_perfil.png" width="75"/> | Linkedin Miembro. |
+| <img src="Imagenes/mj_perfil.png" width="75"/> | Linkedin Miembro. |
+| <img src="Imagenes/fmgc_perfil.png" width="75"/> | Linkedin Miembro. |
+| <img src="Imagenes/gv_perfil.png" width="75"/> | Linkedin Miembro. |
+
