@@ -9,33 +9,21 @@ height=450>
 
 
 <details>
-  <summary>Primer Sprint</summary>
+  <summary><h2> Primer Sprint</h2> </summary>
 
 ## 1.- Objetivos:  
 ● Análisis de Sentimientos:   
 Aplicar técnicas de NLP (Natural Language Processing) para
-clasificar reseñas de Yelp y Google Maps como positivas, negativas o neutras. Además
-nos enfocaremos en aspectos específicos como:
+clasificar reseñas de Yelp y Google Maps como positivas, negativas o neutras. Además nos enfocaremos en aspectos específicos como:  
 ● Comentarios relacionados con el servicio (amabilidad del personal, tiempo de
-espera, atención al cliente).
-● Condiciones del ambiente (limpieza, ruido, confort).
-● Factores específicos de la cocina (calidad de la comida, temperatura, presentación).
-● Predicción de Tendencias del Mercado: Implementar modelos de machine learning para
-predecir tendencias en el mercado de restaurantes, basados en datos históricos y actuales,
-con el objetivo de identificar tipos de restaurantes con mayor probabilidad de crecimiento
-o declive.
+espera, atención al cliente).  
+● Condiciones del ambiente (limpieza, ruido, confort).  
+● Factores específicos de la cocina (calidad de la comida, temperatura, presentación).  
+● Predicción de Tendencias del Mercado: Implementar modelos de machine learning para predecir tendencias en el mercado de restaurantes, basados en datos históricos y actuales,con el objetivo de identificar tipos de restaurantes con mayor probabilidad de crecimientoo declive.  
 ● Recomendación de Ubicaciones para Nuevos Restaurantes: Realizar un análisis
-geo-espacial a fin de identificar regiones con alta concentración de restaurantes (conocidas
-como polos gastronómicos). Este análisis debe segmentar la información según la
-cantidad de estrellas y el tipo de restaurante, proporcionando una visión clara y
-estratégica para abrir nuevos restaurantes.
-● Sistema de Recomendación de Restaurantes: desarrollar un sistema de recomendación
-de restaurantes que provea a los usuarios sugerencias personalizadas basadas en sus
-preferencias individuales y experiencias previas. Este sistema utilizará técnicas avanzadas
-de machine learning y análisis de datos para ofrecer recomendaciones que no solo se
-adapten a los gustos y hábitos de los usuarios, sino que también tengan en cuenta
-factores contextuales, como la hora del día, la ubicación actual y las tendencias recientes
-en las reseñas.
+geo-espacial a fin de identificar regiones con alta concentración de restaurantes (conocidas como polos gastronómicos). Este análisis debe segmentar la información según la cantidad de estrellas y el tipo de restaurante, proporcionando una visión clara y estratégica para abrir nuevos restaurantes.  
+● Sistema de Recomendación de Restaurantes: desarrollar un sistema de recomendación de restaurantes que provea a los usuarios sugerencias personalizadas basadas en sus preferencias individuales y experiencias previas. Este sistema utilizará técnicas avanzadas de machine learning y análisis de datos para ofrecer recomendaciones que no solo se
+adapten a los gustos y hábitos de los usuarios, sino que también tengan en cuentavfactores contextuales, como la hora del día, la ubicación actual y las tendencias recientes en las reseñas.  
 ## 2.- Alcance del Proyecto
 Análisis del Mercado y Recomendación de Restaurantes
 1. Objetivos y Metas del Proyecto:  
@@ -225,7 +213,7 @@ height=450>
 
 
 <details>
-  <summary>Segundo Sprint</summary>
+  <summary><h2>Segundo Sprint</h2></summary>
 
 ### ETL Completo
 ### Estructura de Datos Implementada (DW)
@@ -254,6 +242,10 @@ height=450>
 </details>  
 
 
+<details>
+  <summary><h2> Tercer Sprint </h2></summary>
+
+</details>
 
 ## Autores! 👋
 
