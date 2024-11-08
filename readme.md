@@ -370,7 +370,13 @@ height=450>
 8. **Nube de Palabras en Nombres de Negocios**:
    La nube de palabras generada muestra que términos como "Cafe," "Restaurant," "Bar," "Pizza," y "Grill" son los más frecuentes en los nombres de negocios, destacando la prevalencia de la industria de alimentos y bebidas en el dataset.
 
-Este análisis inicial proporciona una base sólida para realizar un modelado avanzado y desarrollar sistemas de recomendación para mejorar la experiencia del usuario y apoyar en la toma de decisiones estratégicas para expansión y fidelización de clientes.
+<br><br>
+<p align="center">
+<img src="Imagenes/Nube_de_palabras.png"  
+height=450>
+</p>
+<br><br>
+
 
 - [Link al EDA](https://github.com/negoveron/PF_GY_DPT10/blob/main/EDA/EDA.ipynb)
 
