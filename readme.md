@@ -309,6 +309,23 @@ Estas variables son necesarias para configurar el entorno y deben ser configurad
 
 ### 3_ Data Warehouse
 
+Se ha decidido por la opción de una estructura de DataWarehouse por las siguientes razones:
+
+1. **Estructura de los Datos**:
+
+   - Los datos que se manejan son estructuradosy organizados en tablas que han pasado por un proceso de limpieza y transformación (ETL). Esto permite optimizar el acceso a los datos y realizar consultas rápidas y complejas.
+2. **Propósito de los Datos**:
+
+   - Una de las principales propósitos es el análisis de datos históricos, con la posibilidad de una carga incremental. Estos datos estan bien definidos y depurados lo cual los hace mas compatible con un Data Warehouse
+3. **Velocidad de Consulta y Rendimiento**:
+
+   - Los *data warehouses* están diseñados para optimizar consultas rápidas en datos estructurados. Pueden entregar resultados de consultas en cuestión de segundos o minutos, ideal para aplicaciones de business intelligence.
+4. **Costos y Mantenimiento**:
+
+   - Los *data warehouses*, al implicar procesos de transformación de datos y optimización para consultas, pueden tener costos de almacenamiento y procesamiento superiores. Sin embargo, estos costos se justifican en entornos donde la rapidez y precisión en las consultas es fundamental para la toma de decisiones.
+
+Finalemente ponderando la facilidad de uso, la capcidad de análisis rápidos y confiables de grandes cantidades de datos estructurados, a un costo inicial de $0 se otó por usar Cloud Storage Platform.
+
 ### Diseño ER
 
 <p align="center">
