@@ -324,7 +324,7 @@ Se ha decidido por la opción de una estructura de DataWarehouse por las siguien
 
    - Los *data warehouses*, al implicar procesos de transformación de datos y optimización para consultas, pueden tener costos de almacenamiento y procesamiento superiores. Sin embargo, estos costos se justifican en entornos donde la rapidez y precisión en las consultas es fundamental para la toma de decisiones.
 
-Finalemente ponderando la facilidad de uso, la capcidad de análisis rápidos y confiables de grandes cantidades de datos estructurados, a un costo inicial de $0 se otó por usar Cloud Storage Platform.
+Finalemente ponderando la facilidad de uso, la capcidad de análisis rápidos y confiables de grandes cantidades de datos estructurados, a un costo inicial de $0 se optó por usar Cloud Storage Platform.
 
 ### Diseño ER
 
