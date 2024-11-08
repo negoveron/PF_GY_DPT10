@@ -262,13 +262,12 @@ height=450>
 
 ### Diseño ER
 ### Pipeline para alimentar el DW
-### Data Warehouse
 
 <p align="center">
 <img src="Imagenes/ciclo_de_vida.png"  
 height=450>
 </p>
-
+### Data Warehouse
 ### Automatizacion
 ### Validacion de datos
 ### Documentacion
