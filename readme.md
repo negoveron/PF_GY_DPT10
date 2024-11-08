@@ -309,6 +309,23 @@ Estas variables son necesarias para configurar el entorno y deben ser configurad
 
 ### 3_ Data Warehouse
 
+Se ha decidido por la opción de una estructura de DataWarehouse por las siguientes razones:
+
+1. **Estructura de los Datos**:
+
+   - Los datos que se manejan son estructuradosy organizados en tablas que han pasado por un proceso de limpieza y transformación (ETL). Esto permite optimizar el acceso a los datos y realizar consultas rápidas y complejas.
+2. **Propósito de los Datos**:
+
+   - Una de las principales propósitos es el análisis de datos históricos, con la posibilidad de una carga incremental. Estos datos estan bien definidos y depurados lo cual los hace mas compatible con un Data Warehouse
+3. **Velocidad de Consulta y Rendimiento**:
+
+   - Los *data warehouses* están diseñados para optimizar consultas rápidas en datos estructurados. Pueden entregar resultados de consultas en cuestión de segundos o minutos, ideal para aplicaciones de business intelligence.
+4. **Costos y Mantenimiento**:
+
+   - Los *data warehouses*, al implicar procesos de transformación de datos y optimización para consultas, pueden tener costos de almacenamiento y procesamiento superiores. Sin embargo, estos costos se justifican en entornos donde la rapidez y precisión en las consultas es fundamental para la toma de decisiones.
+
+Finalemente ponderando la facilidad de uso, la capcidad de análisis rápidos y confiables de grandes cantidades de datos estructurados, a un costo inicial de $0 se optó por usar Cloud Storage Platform.
+
 ### Diseño ER
 
 <p align="center">
@@ -334,23 +351,52 @@ El análisis exploratorio de datos (EDA) realizado sobre una muestra del conjunt
 3. **Distribución de Calificaciones**:
    Las calificaciones de los negocios muestran una tendencia positiva, con la mayoría de los negocios ubicados entre 3 y 5 estrellas. La categoría más frecuente es la de 4 estrellas, lo que sugiere que, en general, los clientes están satisfechos con la calidad de los servicios. Las calificaciones más bajas son menos comunes, lo que indica un sesgo hacia valoraciones positivas.
 
-4. **Análisis de Reseñas por Calificación**:
+<br><br>
+<p align="center">
+<img src="Imagenes/Calificación_de_negocios.png"  
+height=450>
+</p>
+<br><br>
+
+5. **Análisis de Reseñas por Calificación**:
    Los negocios con calificaciones altas (4 y 5 estrellas) tienden a tener una mayor cantidad de reseñas, indicando una correlación entre la popularidad de los negocios y su calificación. Este hallazgo es valioso para identificar negocios destacados que atraen mayor atención y fidelización de clientes.
 
-5. **Análisis de Ciudades**:
+6. **Análisis de Ciudades**:
    Filadelfia, Tucson, y Tampa lideran en cantidad de negocios dentro del dataset. Esta concentración puede ser indicativa de áreas con una alta actividad comercial, especialmente en sectores de turismo y restauración. También se identificaron más de 1,400 ciudades únicas, lo que muestra una buena representatividad geográfica en los datos.
 
-6. **Matriz de Correlación**:
+7. **Matriz de Correlación**:
    La matriz de correlación entre variables numéricas como `latitude`, `longitude`, `stars`, `review_count`, y `is_open` muestra correlaciones bajas, indicando que las variables son en su mayoría independientes entre sí. Este análisis sugiere que no existen relaciones lineales fuertes, lo cual orienta la necesidad de métodos avanzados para un análisis más profundo.
 
-7. **Nube de Palabras en Nombres de Negocios**:
+8. **Nube de Palabras en Nombres de Negocios**:
    La nube de palabras generada muestra que términos como "Cafe," "Restaurant," "Bar," "Pizza," y "Grill" son los más frecuentes en los nombres de negocios, destacando la prevalencia de la industria de alimentos y bebidas en el dataset.
 
-Este análisis inicial proporciona una base sólida para realizar un modelado avanzado y desarrollar sistemas de recomendación para mejorar la experiencia del usuario y apoyar en la toma de decisiones estratégicas para expansión y fidelización de clientes.
+<br><br>
+<p align="center">
+<img src="Imagenes/Nube_de_palabras.png"  
+height=450>
+</p>
+<br><br>
+
 
 - [Link al EDA](https://github.com/negoveron/PF_GY_DPT10/blob/main/EDA/EDA.ipynb)
 
 ### MVP/Proof of concept de producto ML
+
+<br>
+
+<p align="center">
+<img src="Imagenes/Dashboard_1.jpeg"  
+height=450>
+</p>
+
+
+<br><br><br>
+
+
+<p align="center">
+<img src="Imagenes/Dashboard_2.jpeg"  
+height=450>
+</p>
 
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
