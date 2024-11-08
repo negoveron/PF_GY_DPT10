@@ -279,6 +279,34 @@ El desarrollo de este pipeline de datos representa una solución integral para g
 
 ### 2_ Pipeline para alimentar el DW
 
+Este pipeline, implementado como una función en **Cloud Run**, está diseñado para automatizar la carga de datos de reseñas provenientes de archivos CSV en Google Cloud Storage hacia BigQuery. La función `function-carga-wh` valida los archivos entrantes, extrae los datos, los transforma y los carga en BigQuery para su posterior análisis. Este proceso permite manejar eficientemente los datos de reseñas de Yelp y Google Maps, haciendo posible el análisis de la opinión de los usuarios y facilitando la creación de modelos de machine learning para recomendaciones y predicciones de mercado.
+
+#### Componentes principales
+
+##### Funciones y archivos
+- **validate_data**: Valida que el archivo contenga las columnas requeridas.
+- **load_to_bigquery**: Carga los datos en BigQuery, añadiéndolos a la tabla de destino especificada en las variables de entorno.
+- **read_csv**: Lee el archivo CSV desde Google Cloud Storage.
+- **name_validation**: Valida el nombre y el tipo de archivo.
+- **gcs_to_bigquery**: Función principal que orquesta el flujo de trabajo.
+
+#### Arquitectura del pipeline
+
+1. **Disparador de Eventarc**: Configurado para escuchar eventos de finalización (`google.cloud.storage.object.v1.finalized`) en el bucket `test-pfgydpt10-bucket` de Google Cloud Storage, en la región `southamerica-east1`. Cuando se sube un nuevo archivo CSV, se activa la función `function-carga-wh`.
+2. **Validación del archivo**: La función `name_validation` verifica que el archivo tenga el prefijo `tip` y sea de tipo `csv` antes de continuar con el procesamiento.
+3. **Lectura y validación de datos**: Si la validación es exitosa, `read_csv` lee el archivo y `validate_data` revisa que contenga las columnas necesarias (`user_id`, `business_id`, `text`, `date`).
+4. **Carga a BigQuery**: Una vez validado, el archivo se carga en BigQuery utilizando `load_to_bigquery`. Si el proceso falla, el error se registra en Cloud Logging.
+5. **Logging**: La función utiliza Cloud Logging para registrar errores y mensajes de seguimiento, permitiendo identificar problemas en el pipeline.
+
+#### Variables de entorno
+
+Estas variables son necesarias para configurar el entorno y deben ser configuradas en Cloud Run:
+
+- `BQ_PROJECT_ID`: ID del proyecto de BigQuery.
+- `BQ_DATASET_ID`: ID del dataset de BigQuery donde se cargan los datos.
+- `BQ_TABLE_ID`: ID de la tabla de BigQuery.
+- `LOG_EXECUTION_ID`: Flag opcional para habilitar o deshabilitar el logeo de ejecución.
+
 ### 3_ Data Warehouse
 
 ### Diseño ER
