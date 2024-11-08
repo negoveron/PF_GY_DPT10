@@ -267,6 +267,7 @@ height=450>
 <img src="Imagenes/ciclo_de_vida.png"  
 height=450>
 </p>
+
 ### Data Warehouse
 ### Automatizacion
 ### Validacion de datos
