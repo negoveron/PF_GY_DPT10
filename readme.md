@@ -322,7 +322,7 @@ height=450>
 
 ### Analisis de datos de muestra
 
-- [Link al EDA](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+- [Link al EDA](https://github.com/negoveron/PF_GY_DPT10/blob/main/EDA/EDA.ipynb)
 
 ### MVP/Proof of concept de producto ML
 
