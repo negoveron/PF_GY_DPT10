@@ -334,16 +334,23 @@ El análisis exploratorio de datos (EDA) realizado sobre una muestra del conjunt
 3. **Distribución de Calificaciones**:
    Las calificaciones de los negocios muestran una tendencia positiva, con la mayoría de los negocios ubicados entre 3 y 5 estrellas. La categoría más frecuente es la de 4 estrellas, lo que sugiere que, en general, los clientes están satisfechos con la calidad de los servicios. Las calificaciones más bajas son menos comunes, lo que indica un sesgo hacia valoraciones positivas.
 
-4. **Análisis de Reseñas por Calificación**:
+<br><br>
+<p align="center">
+<img src="Imagenes/Calificación_de_negocios.png"  
+height=450>
+</p>
+<br><br>
+
+5. **Análisis de Reseñas por Calificación**:
    Los negocios con calificaciones altas (4 y 5 estrellas) tienden a tener una mayor cantidad de reseñas, indicando una correlación entre la popularidad de los negocios y su calificación. Este hallazgo es valioso para identificar negocios destacados que atraen mayor atención y fidelización de clientes.
 
-5. **Análisis de Ciudades**:
+6. **Análisis de Ciudades**:
    Filadelfia, Tucson, y Tampa lideran en cantidad de negocios dentro del dataset. Esta concentración puede ser indicativa de áreas con una alta actividad comercial, especialmente en sectores de turismo y restauración. También se identificaron más de 1,400 ciudades únicas, lo que muestra una buena representatividad geográfica en los datos.
 
-6. **Matriz de Correlación**:
+7. **Matriz de Correlación**:
    La matriz de correlación entre variables numéricas como `latitude`, `longitude`, `stars`, `review_count`, y `is_open` muestra correlaciones bajas, indicando que las variables son en su mayoría independientes entre sí. Este análisis sugiere que no existen relaciones lineales fuertes, lo cual orienta la necesidad de métodos avanzados para un análisis más profundo.
 
-7. **Nube de Palabras en Nombres de Negocios**:
+8. **Nube de Palabras en Nombres de Negocios**:
    La nube de palabras generada muestra que términos como "Cafe," "Restaurant," "Bar," "Pizza," y "Grill" son los más frecuentes en los nombres de negocios, destacando la prevalencia de la industria de alimentos y bebidas en el dataset.
 
 Este análisis inicial proporciona una base sólida para realizar un modelado avanzado y desarrollar sistemas de recomendación para mejorar la experiencia del usuario y apoyar en la toma de decisiones estratégicas para expansión y fidelización de clientes.
@@ -355,7 +362,7 @@ Este análisis inicial proporciona una base sólida para realizar un modelado av
 <br>
 
 <p align="center">
-<img src="Imagenes/Dashboard 1.jpeg"  
+<img src="Imagenes/Dashboard_1.jpeg"  
 height=450>
 </p>
 
@@ -364,7 +371,7 @@ height=450>
 
 
 <p align="center">
-<img src="Imagenes/Dashboard 2.jpeg"  
+<img src="Imagenes/Dashboard_2.jpeg"  
 height=450>
 </p>
 
