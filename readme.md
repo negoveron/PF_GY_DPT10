@@ -314,7 +314,7 @@ height=450>
 
 |   <h3 align=center>Foto</h3> | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) |
 |--------|-------------|
-| <img src="Imagenes/jc2_perfil.png" width="75"/> | [Linkedin Juan](www.linkedin.com/in/fernando-garcias-corts-326a4027) |
+| <img src="Imagenes/jc2_perfil.png" width="75"/> | [Linkedin Jose](https://www.linkedin.com/in/jose-yesid-cruz-pinto/) |
 | <img src="Imagenes/jc_perfil.png" width="75"/> | [Linkedin Joaquin](www.linkedin.com/in/fernando-garcias-corts-326a4027) |
 | <img src="Imagenes/mj_perfil.png" width="75"/> | [Linkedin Maria Jose](www.linkedin.com/in/fernando-garcias-corts-326a4027) |
 | <img src="Imagenes/fmgc_perfil.png" width="75"/> | [Linkedin Fernando](https://www.linkedin.com/in/fernando-garcias-corts-326a4027) |
