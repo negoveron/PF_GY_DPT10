@@ -312,7 +312,7 @@ Estas variables son necesarias para configurar el entorno y deben ser configurad
 ### Diseño ER
 
 <p align="center">
-<img src="Imagenes/DER_old.jpeg"  
+<img src="Imagenes/Yelp_ER.png"  
 height=450>
 </p>
 
