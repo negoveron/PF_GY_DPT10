@@ -292,7 +292,7 @@ Este pipeline, implementado como una función en **Cloud Run**, está diseñado 
 
 #### Arquitectura del pipeline
 
-1. **Disparador de Eventarc**: Configurado para escuchar eventos de finalización (`google.cloud.storage.object.v1.finalized`) en el bucket `test-pfgydpt10-bucket` de Google Cloud Storage, en la región `southamerica-east1`. Cuando se sube un nuevo archivo CSV, se activa la función `function-carga-wh`.
+1. **Disparador de Eventarc**: Configurado para escuchar eventos de finalización (`google.cloud.storage.object.v1.finalized`) en el bucket `test-pfgydpt10-bucket` de Google Cloud Storage. Cuando se sube un nuevo archivo CSV, se activa la función `function-carga-wh`.
 2. **Validación del archivo**: La función `name_validation` verifica que el archivo tenga el prefijo `tip` y sea de tipo `csv` antes de continuar con el procesamiento.
 3. **Lectura y validación de datos**: Si la validación es exitosa, `read_csv` lee el archivo y `validate_data` revisa que contenga las columnas necesarias (`user_id`, `business_id`, `text`, `date`).
 4. **Carga a BigQuery**: Una vez validado, el archivo se carga en BigQuery utilizando `load_to_bigquery`. Si el proceso falla, el error se registra en Cloud Logging.
