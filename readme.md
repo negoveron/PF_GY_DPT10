@@ -219,7 +219,7 @@ height=450>
 
 ### ETL Completo
 
-- [Carpeta Notebooks ETL](github.com/negoveron/PF_GY_DPT10/tree/7e42f8e4d1eed4aa5399e89bdba7a551ec4e770f/Demo_2/ETL2)
+- [Carpeta Notebooks ETL](https://github.com/negoveron/PF_GY_DPT10/tree/0af87f6a9a777b1032d4f1f09d5176896dc36245/Demo_2/ETL2)
 
 ### Estructura de Datos Implementada (DW)
 ## Ciclo de vida del dato 
@@ -282,16 +282,12 @@ El desarrollo de este pipeline de datos representa una solución integral para g
 ### 3_ Data Warehouse
 
 ### Diseño ER
-### Pipeline para alimentar el DW
-### Data Warehouse
 
 <p align="center">
-<img src="Imagenes/ciclo_de_vida.png"  
+<img src="Imagenes/DER_old.jpeg"  
 height=450>
 </p>
 
-### Automatizacion
-### Validacion de datos
 ### Documentacion
 
 - [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
