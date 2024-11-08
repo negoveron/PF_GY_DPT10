@@ -330,7 +330,7 @@ Finalemente ponderando la facilidad de uso, la capcidad de análisis rápidos y 
 
 <p align="center">
 <img src="Imagenes/Yelp_ER.png"  
-height=450>
+height=550>
 </p>
 
 ### Documentacion
