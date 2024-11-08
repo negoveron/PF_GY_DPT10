@@ -352,6 +352,18 @@ Este análisis inicial proporciona una base sólida para realizar un modelado av
 
 ### MVP/Proof of concept de producto ML
 
+<p align="center">
+<img src="Imagenes/Dashboard 1.jpeg"  
+height=450>
+</p>
+
+
+
+<p align="center">
+<img src="Imagenes/Dashboard 2.jpeg"  
+height=450>
+</p>
+
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
 </details>  
