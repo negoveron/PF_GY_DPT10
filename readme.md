@@ -282,7 +282,16 @@ El desarrollo de este pipeline de datos representa una solución integral para g
 ### 3_ Data Warehouse
 
 ### Diseño ER
+### Pipeline para alimentar el DW
+### Data Warehouse
 
+<p align="center">
+<img src="Imagenes/ciclo_de_vida.png"  
+height=450>
+</p>
+
+### Automatizacion
+### Validacion de datos
 ### Documentacion
 
 - [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
