@@ -212,14 +212,36 @@ height=450>
 </details>
 
 
+
+
 <details>
   <summary><h2>Segundo Sprint</h2></summary>
 
 ### ETL Completo
-### Estructura de Datos Implementada (DW)
-### Pipeline ETL Automatizado:
 
-Hemos desarrollado un pipeline de datos, un proceso estructurado que nos permitió automatizar la captura, transformación y carga de información de diferentes fuentes hacia un entorno de análisis. Este pipeline cumple un rol clave en la gestión de datos moderna, ya que asegura la integración y disponibilidad de datos actualizados y fiables para la toma de decisiones y análisis de negocio.
+- [Carpeta Notebooks ETL](github.com/negoveron/PF_GY_DPT10/tree/7e42f8e4d1eed4aa5399e89bdba7a551ec4e770f/Demo_2/ETL2)
+
+### Estructura de Datos Implementada (DW)
+## Ciclo de vida del dato 
+
+<p align="center">
+<img src="Imagenes/ciclo_de_vida.png"  
+height=450>
+</p>
+
+El ciclo de vida de nuestros datos comienza con la recolección de información desde diversas fuentes externas, incluyendo bases de datos relacionales, archivos de tipo JSON y Parquets de terceros. Estas fuentes externas contienen datos en múltiples formatos y estructuras, lo que presenta el primer desafío: asegurar que la información pueda ser unificada y estandarizada para su procesamiento y análisis.
+
+En la siguiente etapa, los datos pasan a través de un pipeline ETL (Extracción, Transformación y Carga). En la fase de extracción, los datos son capturados desde sus fuentes originales y transferidos al entorno de procesamiento para realizar una `validacion de datos` para realizar un primer tratamiento. Luego, en la transformación, aplicamos reglas y procedimientos para limpiar, estandarizar y enriquecer los datos, eliminando duplicados, gestionando valores nulos y asegurando que cumplan con los requisitos de calidad y estructura para su uso posterior. Finalmente, en la fase de carga, los datos transformados son transferidos a un entorno intermedio o directamente al almacén de datos (Data Warehouse) para su almacenamiento y análisis.
+
+Una vez que los datos han pasado por el pipeline ETL y se encuentran en un formato consistente, ingresan a un Data Warehouse a través de un segundo pipeline diseñado para gestionar su integración en un almacén de datos centralizado. Este Data Warehouse organiza los datos en estructuras optimizadas para la consulta, facilitando el acceso y la recuperación rápida de información para análisis profundos y generación de reportes. Este almacenamiento permite gestionar grandes volúmenes de datos históricos, ofreciendo una visión completa de la información consolidada de la organización.
+
+Finalmente, los datos almacenados en el Data Warehouse están listos para ser consumidos por herramientas de análisis como ser Power BI. En esta última etapa, Power BI permite a los usuarios crear reportes interactivos y dashboards visuales que facilitan la exploración y análisis de la información. Los reportes generados en Power BI proporcionan métricas y tendencias clave, posibilitando una toma de decisiones informada y estratégica. A través de estos dashboards, los usuarios pueden acceder a una representación visual de los datos, realizar análisis en tiempo real y compartir insights de manera ágil y eficiente.
+
+Este proceso detallado compuesto por ambos pipelines conforman la `automatizacion` del ciclo de vida de los datos, que va desde la extracción y transformación inicial hasta su análisis y visualización final, asegura que los datos estén alineados con las necesidades analíticas de la organización y facilita la toma de decisiones fundamentadas en información confiable y actualizada.
+
+### 1 _ Pipeline ETL Automatizado:
+
+Se ha desarrollado un pipeline de datos, un proceso estructurado que nos permitió automatizar la captura, transformación y carga de información de diferentes fuentes hacia un entorno de análisis. Este pipeline cumple un rol clave en la gestión de datos moderna, ya que asegura la integración y disponibilidad de datos actualizados y fiables para la toma de decisiones y análisis de negocio.
 
 #### Objetivos
 - El principal objetivo del pipeline de datos es procesar información de manera eficiente, de tal forma que pueda ser transformada y cargada en un repositorio para su análisis. Algunos objetivos específicos incluyen:
@@ -255,31 +277,31 @@ Escalabilidad: Optimizar el rendimiento del pipeline para manejar volúmenes cre
 #### Conclusión:  
 El desarrollo de este pipeline de datos representa una solución integral para gestionar, transformar y analizar datos de manera eficiente. Esta implementación de automatización y orquestación de datos permite a la organización beneficiarse de un flujo de trabajo de datos confiable, escalable y alineado con las necesidades de análisis. A futuro, planeamos mejorar el pipeline mediante la incorporación de capacidades de escalabilidad en la nube y de machine learning para optimizar aún más el procesamiento de los datos y generar información de valor en tiempo real.
 
-<p align="center">
-<img src="Imagenes/ciclo_de_vida.png"  
-height=450>
-</p>
+### 2_ Pipeline para alimentar el DW
+
+### 3_ Data Warehouse
 
 ### Diseño ER
-### Pipeline para alimentar el DW
-### Data Warehouse
 
-<p align="center">
-<img src="Imagenes/ciclo_de_vida.png"  
-height=450>
-</p>
-
-### Automatizacion
-### Validacion de datos
 ### Documentacion
+
+- [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+
 ### Analisis de datos de muestra
+
+- [Link al EDA](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+
 ### MVP/Proof of concept de producto ML
-### Este Readme 
+
+- [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+
 </details>  
 
 
 <details>
   <summary><h2> Tercer Sprint </h2></summary>
+
+  Coming soon..
 
 </details>
 
