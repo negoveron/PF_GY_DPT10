@@ -5,3 +5,7 @@ ETL/business.csv
 ETL/businessc.csv
 ETL/businessc.xlsx
 ETL/~$businessc.xlsx
+Datasets/*.*
+Datasets/Yelp/business.pkl
+Datasets/Yelp/checkin.json
+Datasets/Yelp/metadata-sitios_restaurantes.parquet
