@@ -126,7 +126,7 @@ for cluster_id in df['cluster'].unique():
 mapa
 ```
 <p align="center">
-<img src="Imagenes\mapa1_yelp.png"  
+<img src="..\Imagenes\mapa1_yelp.png"  
 height=450>
 </p>
 
@@ -138,11 +138,6 @@ height=450>
 </p>
 
 #### al realizar zoom se puede ver cada restaurant que pertenece a cada cluster:
-
-<p align="center">
-<img src="..\Imagenes\mapa1_yelp_zoom.png"  
-height=450>
-</p>
 
 ### Carga de BD de Google (en esta instancia local las BD estan separadas en 2 archivos)
 
