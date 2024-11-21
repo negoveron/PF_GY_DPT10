@@ -1,9 +1,45 @@
 # <h1 align=center> **Desarrollo de agrupamiento geoespacial con dbscan y pairwise** </h1>
 
-## <h1 align=center>**`Proyecto grupal`**</h1>
+## <h1 align=center>**`Proyecto grupal - Machine Learning`**</h1>
 
-En el transcurso del proyecto surguio la iniciativa de poder generar recomendaciones de ubicaciones para nuevos restaurantes, para lo cual se consideró necesario poder establecer agrupamientos de diferentes tipos (categorias, puntuaciones entre portales,etc), y entre estos tipos tambien de agrupamiento por distancia entre ellos.
-Para esta clase de tareas existen los algoritmos de clusterizacion y contamos con librerias del estilo pairwise que nos ayudan a poder calcular distancias entre puntos (x,y) , para lo cual debemos contar los datos de latitud y longitud de los restaurantes.
+<p align="center">
+<img src="..\Imagenes\dbscan_portada.jpeg"  
+height=650>
+</p>
+
+### Tabla de Contenido:
+
+1. [Prologo](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/readmedbscan.md#Prologo)
+2. [Documentacion](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/readmedbscan.md#Documentacion)
+3. [Datasets](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/readmedbscan.md#Datasets)
+4. [Codigo](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/readmedbscan.md#Codigo)
+5. [Conclusiones](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/readmedbscan.md#Conclusiones)
+
+
+# Prologo
+Al momento de inaugurar un nuevo restaurante, unos de los factores claves, tal vez uno de los mas importantes, es elegir la ubicacion del mismo.   
+Para el analisis de donde ubicar el nuevo local es importante considerar que restaurantes estan en la zona, que tipo de servicio ofrecen , que piensan los clientes de ellos, cuales son sus fuertes y su falencias.  
+En un principio se pensó con el equipo de desarrollo realizar el analisis por estado (dato que contamos en las bases de datos), pero luego vimos que esa clasificacion no era suficiente, dado a que en estados grandes puede llegar a existir una larga distancia entre un restaurant y el siguiente del mismo estilo, echo que pone en duda si ese restaurant alejado formaria parte de la "competencia".  
+Para ello vimos la necesidad de clasificar restaurantes agrupados por una distancia dada que consideramos apropiada, a la cuales llamariamos "polos gastronomicos".  
+Para esta tareas nos apoyamos en algoritmos de clusterizacion y utilizamos librerias del estilo pairwise que nos ayudan a poder calcular distancias entre puntos (x,y) , para lo cual previamente debemos contar los datos de latitud y longitud de los restaurantes. 
+
+# Documentacion
+
+[Documentacion DBscan](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.DBSCAN.html)  
+[Documentacion Pairwise_distances](https://scikit-learn.org/dev/modules/generated/sklearn.metrics.pairwise_distances.html)
+
+
+# Datasets
+
+Para el desarrollo del algoritmo y la funcion "distancias" se trabajó sobre archivos de manera local e independiente por BD.  
+El script final se corrio en un colab de google conectado directamente a Bigquery de google, lugar donde es el destino final de los datos para ser consumidos por herramientas de BI y Dashboard.  
+Tablas en bigquery:  
+`test01-440321.test001.business`  
+`test01-440321.test001.restaurante`
+
+# Codigo
+
+Para visualizar las salidas de cada celda ver notebook :   [DBscan](https://github.com/negoveron/PF_GY_DPT10/blob/main/ML/Ddbscan.ipynb)
 
 ### Importamos las galerias
 
@@ -97,14 +133,14 @@ height=450>
 #### __En el mapa se puede ver que los restaurantes que estan cercanos a un epsilon de distancia y que estan rodeados de un grupo minimo de 10 estan coloreados del mismo color (fue agrupado por el algoritmo al mismo cluster), dando otra comprobacion de que el algoritmo esta funcionando correctamente para esos hiperparametros (epsilon=0.09 y samples=10)__
 
 <p align="center">
-<img src="Imagenes\mapa1_yelp_zoom.png"  
+<img src="..\Imagenes\mapa1_yelp_zoom.png"  
 height=450>
 </p>
 
 #### al realizar zoom se puede ver cada restaurant que pertenece a cada cluster:
 
 <p align="center">
-<img src="Imagenes\mapa1_yelp_zoom.png"  
+<img src="..\Imagenes\mapa1_yelp_zoom.png"  
 height=450>
 </p>
 
@@ -185,11 +221,11 @@ for cluster_id in dfgoogle['cluster'].unique():
 mapa
 ```
 <p align="center">
-<img src="Imagenes\mapa2_google.png"  
+<img src="..\Imagenes\mapa2_google.png"  
 height=450>
 </p>
 <p align="center">
-<img src="Imagenes\mapa2_google_zoom.png"  
+<img src="..\Imagenes\mapa2_google_zoom.png"  
 height=450>
 </p>
 
@@ -197,3 +233,6 @@ height=450>
 
 
 
+# Conclusiones
+
+Una vez realizada la clasificacion de restaurantes e insertada esta info en las bases de datos podemos (mediante la función "distancias") reconocer si por ubicacion geografica perteneciera a un polo gastronomico existente, con esto podemos contar con la informacion (mediante herramientas de segmentación) de los restaurantes del mismo polo, y acceder a que opinan sus clientes de ellos a traves de sus reviews, en otra seccion de este proyecto se procede a realizar un PNL de las reviews, con lo cual se puede conocer sus puntos fuertes y sus falencias. Ademas se podria contar con informacion que respondiera la pregunta "si yo ubico mi local de comida arabe aqui, a que distancia se encuentra el proximo local de comida arabe de la competencia?".
