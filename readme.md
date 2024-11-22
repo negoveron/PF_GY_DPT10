@@ -13,6 +13,8 @@ height=450>
 - [EDA](#4--eda)
 - [Metodlogia](#5--metodología)
 - [Stack Tecnológico](#6--stack-tecnológico)
+- [Dashboard](#dashboard)
+- [App Web](#app-web)
 
 ## 1.- Objetivos:  
 
@@ -459,7 +461,7 @@ height=450>
 
 - [Link al EDA](https://github.com/negoveron/PF_GY_DPT10/blob/main/EDA/EDA.ipynb)
 
-### MVP/Proof of concept de producto ML
+### Dashboard
 
 <br>
 
@@ -476,6 +478,10 @@ height=450>
 </p>
 
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+
+### App Web
+
+- [Link a la App Web](https://negoveron.github.io/gastrosphere.github.io/)
 
 ## Autores! 👋
 
