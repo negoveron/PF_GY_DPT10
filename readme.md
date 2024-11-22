@@ -8,8 +8,6 @@ height=450>
 </p>
 
 
-<details>
-  <summary><h2> Primer Sprint</h2> </summary>
 
 ## 1.- Objetivos:  
 ● Análisis de Sentimientos:   
@@ -209,13 +207,6 @@ height=450>
 </p>
 
 
-</details>
-
-
-
-
-<details>
-  <summary><h2>Segundo Sprint</h2></summary>
 
 ### ETL Completo
 
@@ -400,15 +391,6 @@ height=450>
 
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
-</details>  
-
-
-<details>
-  <summary><h2> Tercer Sprint </h2></summary>
-
-  Coming soon..
-
-</details>
 
 ## Autores! 👋
 
