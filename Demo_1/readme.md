@@ -12,103 +12,84 @@ espera, atención al cliente).
 ● Recomendación de Ubicaciones para Nuevos Restaurantes: Realizar un análisis
 geo-espacial a fin de identificar regiones con alta concentración de restaurantes (conocidas como polos gastronómicos). Este análisis debe segmentar la información según la cantidad de estrellas y el tipo de restaurante, proporcionando una visión clara y estratégica para abrir nuevos restaurantes.  
 ● Sistema de Recomendación de Restaurantes: desarrollar un sistema de recomendación de restaurantes que provea a los usuarios sugerencias personalizadas basadas en sus preferencias individuales y experiencias previas. Este sistema utilizará técnicas avanzadas de machine learning y análisis de datos para ofrecer recomendaciones que no solo se
-adapten a los gustos y hábitos de los usuarios, sino que también tengan en cuentavfactores contextuales, como la hora del día, la ubicación actual y las tendencias recientes en las reseñas.  
+adapten a los gustos y hábitos de los usuarios, sino que también tengan en cuentavfactores contextuales, como la hora del día, la ubicación actual y las tendencias recientes en las reseñas. 
+
 ## 2.- Alcance del Proyecto
 Análisis del Mercado y Recomendación de Restaurantes
-1. Objetivos y Metas del Proyecto:  
-● Análisis exhaustivo del mercado: Realizar un análisis detallado del mercado
-estadounidense, enfocado en restaurantes, utilizando datos de Yelp y Google Maps.
-● Modelo de Machine Learning: Implementar un modelo para el análisis de
-sentimientos y predicción de tendencias del mercado de restaurantes.
-● Sistema de Recomendación: Desarrollar un sistema de recomendación de
-restaurantes personalizado a los usuarios finales.
+
+1. Objetivos y Metas del Proyecto:
+  * Análisis exhaustivo del mercado: Realizar un análisis detallado del mercado estadounidense, enfocado en restaurantes, utilizando datos de Yelp y Google Maps.
+  * Modelo de Machine Learning: Implementar un modelo para el análisis de sentimientos y predicción de tendencias del mercado de restaurantes.
+  * Sistema de Recomendación: Desarrollar un sistema de recomendación de restaurantes personalizado a los usuarios finales.
+
 2. Entregables:  
-● DataWarehouse en Google Cloud:
-- Configuración de Google Cloud para el almacenamiento y gestión de datos
-de Yelp y Google Maps.
-- Implementación de procesos ETL (Extracción, Transformación y Carga) para
-la integración de datos.
-- Realización de un Análisis Exploratorio de Datos (EDA) completo para
-descubrir patrones y tendencias.
-● .Análisis de Sentimientos:
-Informes detallados que clasifiquen las reseñas como positivas, negativas o
-neutras.
-● Modelos Predictivos:
-Predicciones sobre el crecimiento o declive de restaurantes basadas en
-datos históricos y actuales.
-● Sistema de Recomendación:
+  ● DataWarehouse en Google Cloud:
+    - Configuración de Google Cloud para el almacenamiento y gestión de datosde Yelp y Google Maps.
+    - Implementación de procesos ETL (Extracción, Transformación y Carga) para la integración de datos.
+    - Realización de un Análisis Exploratorio de Datos (EDA) completo para descubrir patrones y tendencias.
+    - 
+  ● Análisis de Sentimientos:
+Informes detallados que clasifiquen las reseñas como positivas, negativas o neutras.
+  ● Modelos Predictivos:
+Predicciones sobre el crecimiento o declive de restaurantes basadas en datos históricos y actuales.
+  ● Sistema de Recomendación:
 Prototipo funcional que ofrezca sugerencias personalizadas de restaurantes.
-● Análisis Espacial:
-Recomendaciones de ubicaciones óptimas para nuevos restaurantes,
-basadas en un análisis espacial y demográfico.
-● Dashboard Interactivo:
-Visualización de los resultados del análisis de sentimientos, predicciones de
-tendencias, recomendaciones de ubicaciones.
+  ● Análisis Espacial:
+Recomendaciones de ubicaciones óptimas para nuevos restaurantes, basadas en un análisis espacial y demográfico.
+  ● Dashboard Interactivo:
+Visualización de los resultados del análisis de sentimientos, predicciones de tendencias, recomendaciones de ubicaciones.
+
 3. Tareas y Actividades:
-● Recolección y Limpieza de Datos:
+  ● Recolección y Limpieza de Datos:
 Obtención y limpieza de datos desde Google Maps y Yelp.
-● Diseño y Desarrollo del DataWarehouse:
+  ● Diseño y Desarrollo del DataWarehouse:
 Diseño e implementación del DataWarehouse en Google Cloud.
-● Implementación de Procesos ETL:
+  ● Implementación de Procesos ETL:
 Desarrollo de pipelines para la extracción, transformación y carga de datos.
-● Análisis Exploratorio de Datos (EDA):
+  ● Análisis Exploratorio de Datos (EDA):
 Realización de EDA para analizar y comprender los datos.
-● Desarrollo y Validación de Modelos de Machine Learning:
-Entrenamiento y evaluación de modelos para análisis de sentimientos y
-predicción de tendencias.
-● Creación de Dashboards Interactivos en Power BI:
+  ● Desarrollo y Validación de Modelos de Machine Learning:
+  Entrenamiento y evaluación de modelos para análisis de sentimientos y predicción de tendencias.
+  ● Creación de Dashboards Interactivos en Power BI:
 Desarrollo de dashboards para la visualización de datos y resultados.
-● Implementación de la Metodología Scrum:
-Gestión del proyecto utilizando la metodología Scrum con sprints y
-reuniones diarias.
-● Desarrollo de Pipelines de Datos:
-Diseño y desarrollo de pipelines para la automatización de procesos de
-datos.
-● Documentación:
+  ● Implementación de la Metodología Scrum:
+Gestión del proyecto utilizando la metodología Scrum con sprints y reuniones diarias.
+  ● Desarrollo de Pipelines de Datos:
+Diseño y desarrollo de pipelines para la automatización de procesos de datos.
+  ● Documentación:
 Elaboración de documentación técnica.
+
 4. Exclusiones del Proyecto:
-● No se realizará una implementación física de nuevos restaurantes.
-● No se incluirán datos fuera del mercado estadounidense.
-● No se cubrirán otros rubros de negocio distintos a los restaurantes.
-Restricciones:
-● Tiempo: El proyecto debe completarse en un plazo de 6 semanas.
-● Presupuesto: Limitado a la infraestructura de Google Cloud y herramientas de desarrollo
-(ClickUp, Python).
-● Recursos: Equipo limitado con roles definidos (Scrum Master, Product Owner, Equipo de
-Desarrollo).
+  ● No se realizará una implementación física de nuevos restaurantes.
+  ● No se incluirán datos fuera del mercado estadounidense.
+  ● No se cubrirán otros rubros de negocio distintos a los restaurantes.
+  Restricciones:
+  ● Tiempo: El proyecto debe completarse en un plazo de 6 semanas.
+  ● Presupuesto: Limitado a la infraestructura de Google Cloud y herramientas de desarrollo   (ClickUp, Python).
+  ● Recursos: Equipo limitado con roles definidos (Scrum Master, Product Owner, Equipo de   Desarrollo).
+
 ## 3.- KPIs
-● Aumentar en 5% la razón de reseñas positivas de un trimestre con respecto al anterior
-para un restaurante particular. La razón de reseñas positivas se calcula como: reseñas
-positivas (por trimestre) / total de reseñas (por trimestre).
-● Aumentar trimestralmente en 1 (uno) la cantidad de categorías de reviews donde la
-relación de las positivas sobre sea mayor a 1. Las categorías de reviews salen de la
-clasificación del análisis de sentimientos y pueden ser positivas, negativas o neutrales.
-● Bajar trimestralmente en 10% la calificación negativa (2 o menos estrellas).
+  ● Aumentar en 5% la razón de reseñas positivas de un trimestre con respecto al anterior para un restaurante particular. La razón de reseñas positivas se calcula como: reseñas positivas (por trimestre) / total de reseñas por trimestre).
+  ● Aumentar trimestralmente en 1 (uno) la cantidad de categorías de reviews donde la relación de las positivas sobre sea mayor a 1. Las categorías de reviews salen de la clasificación del análisis de sentimientos y pueden ser positivas, negativas o neutrales.
+  ● Bajar trimestralmente en 10% la calificación negativa (2 o menos estrellas).
+  
 ## 4.- EDA
-La realización de un ETL y EDA preliminar permiten tener un primer acercamiento a la
-consistencia de los datos, identificar qué datos están disponibles y aumentar el entendimiento de
-los mismos.
-Para la Demo # 1 se realizaron ETL y EDA preliminares los que arrojaron las primeras
-impresiones:
-● Las reviews son en su mayoría positivas
-● La mayoría de las calificaciones son de 3 o más estrellas, 2 estrellas es lo menos
-frecuente.
-● La categoría useful es la más frecuente a la hora de clasificar una review.
-● Más del 50% de los usuarios hizo 6 o menos reviews.
-● Los rubros más frecuentes son restaurant y food.
-● La mayoría de los negocios cuenta con menos de 20 reviews, con la media en 10 reviews.
-● Los restaurantes con calificaciones más bajas (alrededor de 1 y 2 ) tienden a tener muy
-pocas reseñas.
+La realización de un ETL y EDA preliminar permiten tener un primer acercamiento a la consistencia de los datos, identificar qué datos están disponibles y aumentar el entendimiento de los mismos.
+
+Para la Demo # 1 se realizaron ETL y EDA preliminares los que arrojaron las primeras impresiones:
+  ● Las reviews son en su mayoría positivas
+  ● La mayoría de las calificaciones son de 3 o más estrellas, 2 estrellas es lo menos frecuente.
+  ● La categoría useful es la más frecuente a la hora de clasificar una review.
+  ● Más del 50% de los usuarios hizo 6 o menos reviews.
+  ● Los rubros más frecuentes son restaurant y food.
+  ● La mayoría de los negocios cuenta con menos de 20 reviews, con la media en 10 reviews.
+  ● Los restaurantes con calificaciones más bajas (alrededor de 1 y 2 ) tienden a tener muy pocas reseñas.
+  
 ## 5.- Metodología
-Metodología de Trabajo: Scrum dentro del Marco Ágil
-Enfoque Ágil
-El proyecto se gestionará utilizando el marco Ágil (Agile), que permite un desarrollo flexible,
-adaptable y basado en la retroalimentación continua. Este enfoque prioriza la entrega
-incremental de valor al cliente y responde eficazmente a los cambios y necesidades del entorno.
-Dentro de este marco, implementaremos Scrum, una metodología ágil ampliamente utilizada para
-gestionar proyectos de software y desarrollo de productos. Scrum nos permitirá dividir el trabajo
-en ciclos cortos, llamados sprints, facilitando la evaluación continua y la mejora del producto a
-través de reuniones periódicas y retroalimentación constante.
+Metodología de Trabajo: Scrum dentro del Marco Ágil Enfoque Ágil
+El proyecto se gestionará utilizando el marco Ágil (Agile), que permite un desarrollo flexible, adaptable y basado en la retroalimentación continua. Este enfoque prioriza la entrega incremental de valor al cliente y responde eficazmente a los cambios y necesidades del entorno.
+Dentro de este marco, implementaremos Scrum, una metodología ágil ampliamente utilizada para gestionar proyectos de software y desarrollo de productos. Scrum nos permitirá dividir el trabajo en ciclos cortos, llamados sprints, facilitando la evaluación continua y la mejora del producto a través de reuniones periódicas y retroalimentación constante.
+
 Etapas de la Metodología Scrum
 1. Product Backlog
 Se recopilarán todas las historias de usuario, requisitos y tareas necesarias para el
