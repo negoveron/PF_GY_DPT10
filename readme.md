@@ -473,7 +473,7 @@ height=450>
 <br><br><br>
 
 <p align="center">
-<img src=""  
+<img src="![PORTADA_GOOGLE_YELP](https://github.com/user-attachments/assets/77486d7a-5e4d-4112-b5be-1dbde34ee6b7)"  
 height=450>
 </p>
 
