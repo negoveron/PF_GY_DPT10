@@ -473,7 +473,7 @@ height=450>
 <br><br><br>
 
 <p align="center">
-<img src="Imagenes/Dashboard_2.jpeg"  
+<img src=""  
 height=450>
 </p>
 
