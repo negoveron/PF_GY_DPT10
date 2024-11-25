@@ -477,6 +477,8 @@ height=450>
 height=450>
 </p>
 
+![PORTADA_GOOGLE_YELP](https://github.com/user-attachments/assets/77486d7a-5e4d-4112-b5be-1dbde34ee6b7)
+
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
 ### App Web
