@@ -463,18 +463,9 @@ height=450>
 
 ### Dashboard
 
-<br>
-
-<p align="center">
-<img src="Imagenes/Dashboard_1.jpeg"  
-height=450>
-</p>
-
-<br><br><br>
-
-
-<img src="https://github.com/user-attachments/assets/77486d7a-5e4d-4112-b5be-1dbde34ee6b7" width="200" />
-
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/77486d7a-5e4d-4112-b5be-1dbde34ee6b7" width="400" height="200" />
+</div>
 
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
