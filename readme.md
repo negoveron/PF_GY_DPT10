@@ -467,6 +467,22 @@ height=450>
   <img src="https://github.com/user-attachments/assets/77486d7a-5e4d-4112-b5be-1dbde34ee6b7" width="450" height="450" />
 </p>
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/870a36ac-ca0a-424d-967b-2b55289b633d" width="450" height="450" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3218470b-ec17-4d4d-8cfa-055af8b57240" width="450" height="450" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/99cbd85b-fa00-45b4-bd44-44b0716fd3ec" width="450" height="450" />
+</p>
+
+
 - [Link al Dashboard](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
 
 ### App Web
